@@ -1,6 +1,7 @@
 # MDSS_P3
 
 ### Diagrama De Clases
-![image](https://github.com/user-attachments/assets/1ccd9d89-32bd-4ba4-9462-117067362d32)
+![image](https://github.com/user-attachments/assets/a48d2569-d072-4035-ba16-0a25ec76d279)
+
 
 
