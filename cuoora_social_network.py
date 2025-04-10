@@ -279,7 +279,7 @@ class PopularTodayQuestionRetriever(QuestionRetriever):
     def retrieve_questions(self, questions, user):
         today_questions = [q for q in questions if q.timestamp.date() == datetime.today().date()]
         if today_questions:
-            average_votes = sum(len(q.positive_votes()) for q in today_questions) / len(today_questions)
+            average_votes = sum(len(q.positive_votes()) for q in today_questions) / len(today_questions) #FEATURE ENVY: CAMBIAR
             popular_questions = [q for q in today_questions if len(q.positive_votes()) > average_votes]
             return popular_questions
         return []
